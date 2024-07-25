@@ -7,18 +7,18 @@ export default function Contato() {
     return(
         <section className={styles.contato + ' animeLeft'}>
             <Head title="Ranek | Contato" description="Entre em contato" />
-            <img src={foto} alt="Máquina de escrever" />
+            <img src={foto} alt="Writing machine" />
             <div>
-                <h1>Entre em contato.</h1>
+                <h1>Get in touch.</h1>
                 <ul className={styles.dados}>
                     <li>
-                        celio@email.com
+                        cl.juniorr@gmail.com
                     </li>
                     <li>
-                        (85) 9 99999999
+                        +61 455 467 439
                     </li>
                     <li>
-                        Rua Tal - 1020
+                        <a target='_blank' rel="noreferrer" href='https://www.github.com/celiovjunior'>@celiovjunior</a>
                     </li>
                 </ul>
             </div>

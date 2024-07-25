@@ -33,7 +33,7 @@ export default function Produto() {
 
     return(
         <section className={styles.produto}>
-            <Head title={`Ranek | ${produto.nome}`} description={`Ranek | Produto: ${produto.descricao}`} />
+            <Head title={`Ranek | ${produto.nome}`} description={`Ranek | Product: ${produto.descricao}`} />
             <div>
                 {produto.fotos.map(foto => (
                     <img key={foto.src} src={foto.src} alt={foto.titulo}></img>
@@ -41,7 +41,7 @@ export default function Produto() {
             </div>
             <div>
                 <h1>{produto.nome}</h1>
-                <span className={styles.preco}>R$ {produto.preco}</span>
+                <span className={styles.preco}>$ {produto.preco}</span>
                 <p className={styles.descricao}>{produto.descricao}</p>
             </div>
         </section>

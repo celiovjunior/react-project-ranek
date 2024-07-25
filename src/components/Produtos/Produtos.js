@@ -16,7 +16,7 @@ export default function Produtos() {
 
     return(
         <section className={styles.produtos + ' animeLeft'}>
-            <Head title="Ranek" description="Descrição do site" />
+            <Head title="Ranek" description="Site's description" />
 
             {produtos.map((produto, index) => (
                 <Link to={`produto/${produto.id}`} key={index}>

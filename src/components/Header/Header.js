@@ -7,10 +7,10 @@ export default function Header() {
         <nav className={styles.header}>
             <ul>
                 <li>
-                    <NavLink className={styles.link} to="/" end>Produtos</NavLink>
+                    <NavLink className={styles.link} to="/" end>Products</NavLink>
                 </li>
                 <li>
-                    <NavLink className={styles.link} to="contato">Contato</NavLink>
+                    <NavLink className={styles.link} to="contato">Contact</NavLink>
                 </li>
             </ul>
         </nav>
